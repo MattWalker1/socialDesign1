@@ -1,0 +1,83 @@
+.PostShare {
+    display: flex;
+    gap: 1rem;
+    background-color: var(--cardColor);
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 510px;
+    height: 510px;
+    align-items: center;
+    position: relative;
+}
+/* This is the the BuffettProfile picture */
+.PostShare>img {
+    margin-bottom: 42px;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+}
+
+/* This is the div below the BuffettProfile picture */
+.PostShare>div{
+    display: flex;
+    flex-direction: column;
+    width: 510px;
+    gap: 1rem;
+    align-items: flex-end;
+}
+.PostShare>div>input {
+    background-color: var(--inputColor);
+    border-radius: 12px;
+    padding: 10px;
+    font-size: 12px;
+    width: 400px;
+    border: none;
+    outline: none;
+    
+}
+
+.postOptions {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.option {
+    background-color: var(--inputColor);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.option:hover {
+    cursor: pointer;
+}
+
+.ps-button {
+   font-size: 12px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.previewImage {
+    position: relative;
+}
+
+.previewImage>svg {
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+    cursor: pointer;
+    color: rgb(56, 53, 53);
+}
+
+.previewImage>img{
+    width: 100%;
+    max-height: 20rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}

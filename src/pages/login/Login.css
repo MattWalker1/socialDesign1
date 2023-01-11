@@ -1,0 +1,10 @@
+
+.Login {
+    background-color: aqua;
+}
+
+.googleSignOutButton{
+    border-radius: .3rem;
+    width: 10rem;
+    height: 2rem;
+}

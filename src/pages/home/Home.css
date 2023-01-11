@@ -1,0 +1,28 @@
+/* Logo dimensions for proper display  - 
+.LogoSearch>img {
+  display: flex;
+  margin-top: -40px;
+  height: 14.6rem;
+  width: 25.5rem;
+} */
+
+.Home{
+  position: relative;
+  grid-template-columns: 20rem auto 20rem;
+  gap: 1rem;
+  display: flex;
+
+}
+ 
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  font-size: 12px;
+  color: rgb(18, 18, 19);
+  padding: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
