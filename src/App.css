@@ -26,10 +26,3 @@
   display: none;
 }
 
-*, *::before, *::after{
-  box-sizing: border-box;
-}
-
-img, picture, svg, video {
-display: block;
-}

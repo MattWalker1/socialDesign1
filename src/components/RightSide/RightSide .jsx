@@ -12,6 +12,13 @@ import postPic5 from '../../assets/postPic5.jpg'
 const RightSide  = () => {
   return (
   <div className="RightSide">
+
+   <div className="suggestedUsers">
+        <img className="suggestion-1"src={janelle2} alt="" />
+        <img className="suggestion-1b"src={img3} alt="" />
+        <img className="suggestion-1c"src={postPic5} alt="" />
+
+    
     <input type="text" name="searchUser" placeholder=" Search user or posts"/>
       <button className="refresh-button"> 
         <UilSync/>
@@ -25,12 +32,7 @@ const RightSide  = () => {
         <UilAngleRightB/>
       </button>
 
-      <div className="suggestedUsers">
-        <img className="suggestion-1"src={janelle2} alt="" />
-        <img className="suggestion-1b"src={img3} alt="" />
-        <img className="suggestion-1c"src={postPic5} alt="" />
-
-      </div>
+    </div>
       
         
   </div>

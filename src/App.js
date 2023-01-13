@@ -45,20 +45,21 @@ function App() {
 // if we dont have a user - show logout button
 
   return (
-    <div className="App">
+    <div className="App" style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '100vh'}}>
       {/* <Home/> */}
       <Login/>
       <div id="signInDiv"> </div>
-      { Object.keys(user).length !== 0 &&
-        <button className="googleSignOutButton" onClick={ (e) => handleSignOut(e)}> Sign Out</button>
-      }
-      
       { user &&
         <div> 
             <img src={user.picture}></img>
             <h3>{user.name}</h3>
         </div>
       }
+      { Object.keys(user).length !== 0 &&
+        <button className="googleSignOutButton" onClick={ (e) => handleSignOut(e)}> Sign Out</button>
+      }
+      
+    
     </div>
   );
 }
