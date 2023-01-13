@@ -1,5 +1,10 @@
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was made with React, Bootstrap & vanilla CSS/JS.
+
+
+
+
+React Docu - 
 
 ## Available Scripts
 
@@ -68,9 +73,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-
-
-
-<!-- ONLYFANS TWITTER POST SHARE BUTTON 
-
-<use xlink:href="/theme/onlyfans/spa/icons/sprite.svg?rev=202211031536-85cc987d5b#icon-twitter" href="/theme/onlyfans/spa/icons/sprite.svg?rev=202211031536-85cc987d5b#icon-twitter"></use> -->
