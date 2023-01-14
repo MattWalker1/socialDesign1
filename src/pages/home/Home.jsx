@@ -8,10 +8,18 @@ import "./Home.css";
 const Home = () => {
   return (
     // Declare ProfileSide page as an HTML element in order to load it from it's react page
-    <div className="Home">
-        <ProfileSide/> 
-        <PostSide/>
-        <RightSide/>
+    <div className="Home" style={{display: 'flex',  justifyContent:'center', alignItems:'flex-start', height: '100vh'}}>
+      <div className="profileSide">
+          <ProfileSide/>
+      </div> 
+      <div className="postSide">
+          <PostSide/>
+       </div>  
+        
+      <div className="rightSide">
+          <RightSide/>
+      </div> 
+        
     </div>
     
   )

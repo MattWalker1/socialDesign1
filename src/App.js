@@ -45,9 +45,9 @@ function App() {
 // if we dont have a user - show logout button
 
   return (
-    <div className="App" style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '100vh'}}>
-      {/* <Home/> */}
-      <Login/>
+    <div className="App" style={{display: 'flex',  justifyContent:'right', alignItems:'flex-start', height: '100vh'}}>
+      { <Home/> }
+      { /* <Login/> */ }
       <div id="signInDiv"> </div>
       { user &&
         <div> 
