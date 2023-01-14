@@ -8,6 +8,9 @@ import Home from "./pages/home/Home";
 import Login from "./pages/login/Login"
 import "./fonts/GothamLight.ttf"
 import "./fonts/GothamMedium.ttf"
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 
 function App() {
@@ -46,10 +49,20 @@ function App() {
 
   return (
     <div className="App" style={{display: 'flex',  justifyContent:'right', alignItems:'flex-start', height: '100vh'}}>
-      { <Home/> }
-      { /* <Login/> */ }
-      <div id="signInDiv"> </div>
-      { user &&
+
+    <Container>
+    
+    { <Home/> }
+    { /* <Login/> */ }
+    <div id="signInDiv"> </div>
+ 
+    
+    <Row>
+      <Col>1 of 3</Col>
+      <Col xs={6}>2 of 3 (wider)</Col>
+
+      <Col>
+       { user &&
         <div> 
             <img src={user.picture}></img>
             <h3>{user.name}</h3>
@@ -58,7 +71,16 @@ function App() {
       { Object.keys(user).length !== 0 &&
         <button className="googleSignOutButton" onClick={ (e) => handleSignOut(e)}> Sign Out</button>
       }
-      
+      </Col>
+
+    </Row>
+
+    </Container>
+
+
+
+
+
     
     </div>
   );
