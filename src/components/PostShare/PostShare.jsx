@@ -57,8 +57,6 @@ const PostShare = () => {
               <img src={image.image} alt=""/>
             </div>
           }
-
-
         </div>
     </div>  
     

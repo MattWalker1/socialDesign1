@@ -44,11 +44,13 @@ function App() {
 // If we have no user - sign in button
 // if we dont have a user - show logout button
 
+//      { <Home/> } - (put it back in order on the page // div className="App" when your done)
+
   return (
     <div className="App" style={{display: 'flex',  justifyContent:'right', alignItems:'flex-start', height: '100vh'}}>
 
-      { <Home/> }
-      { /* <Login/> */ }
+      
+      {  <Login/> }
       <div id="signInDiv"> </div>
       { user &&
         <div> 
@@ -59,8 +61,6 @@ function App() {
       { Object.keys(user).length !== 0 &&
         <button className="googleSignOutButton" onClick={ (e) => handleSignOut(e)}> Sign Out</button>
       }
-      
-    
     </div>
   );
 }
