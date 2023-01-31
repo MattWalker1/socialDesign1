@@ -2,6 +2,7 @@ import postPic6 from '../assets/postPic6.jpg'
 import postPic2 from '../assets/postPic2.jpg'
 import postPic5 from '../assets/postPic5.jpg'
 
+//post data that would normally connect to the cdn and become dynamic
 export const PostsData = [
     {
         img: postPic6,
