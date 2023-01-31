@@ -48,9 +48,8 @@ function App() {
 
   return (
     <div className="App" style={{display: 'flex',  justifyContent:'right', alignItems:'flex-start', height: '100vh'}}>
-
-      
       {  <Login/> }
+      { <Home/> }
       <div id="signInDiv"> </div>
       { user &&
         <div> 
