@@ -26,8 +26,8 @@ function App() {
     document.getElementById("signInDiv").hidden = false;
   }
 
+  /*global google oauth api call*/
   useEffect(() => {
-      /*global google */
       google.accounts.id.initialize({
         client_id: "797526822732-jo172j2vj3aeldd7g9pncdchqdqbn6kt.apps.googleusercontent.com",
         callback: handleCallbackResponse
@@ -43,8 +43,6 @@ function App() {
     }, []);
 // If we have no user - sign in button
 // if we dont have a user - show logout button
-
-//      { <Home/> } - (put it back in order on the page // div className="App" when your done)
 
   return (
     <div className="App" style={{display: 'flex',  justifyContent:'right', alignItems:'flex-start', height: '100vh'}}>
