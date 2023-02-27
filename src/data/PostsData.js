@@ -6,8 +6,8 @@ import postPic5 from '../assets/postPic5.jpg'
 export const PostsData = [
     {
         img: postPic6,
-        name: 'Blac Chynaa',
-        desc: "want sum black suga bish?",
+        name: 'Gav',
+        desc: "Berkshire Hathaway",
         likes: 1099,
         liked: true
     },
@@ -15,15 +15,15 @@ export const PostsData = [
         img: postPic2,
         name: 'Janelle',
         desc: "Morning meditation",
-        likes: 420,
+        likes: 430,
         liked: false
         // liked: false = the react parameter for a post to be liked or not 
         //- this needs to be hooked up to the backend to pull down from the db?
     },
     {
         img: postPic5,
-        name: 'Vladimir P',
-        desc: "Gangster pose",
+        name: 'Tim',
+        desc: "selfie",
         likes: 61223,
         liked: false
     },
